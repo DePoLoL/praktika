@@ -1,0 +1,22 @@
+{
+  "name": "mysql-users-list",
+  "version": "1.0.0",
+  "description": "Скрипт для вывода списка пользователей из MySQL",
+  "main": "listusers.js",
+  "scripts": {
+    "start": "node listusers.js",
+    "test": "node testConnection.js",
+    "simple-test": "node simple-test.js"
+  },
+  "keywords": [
+    "mysql",
+    "database",
+    "users",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  }
+}
